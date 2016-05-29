@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="医生名"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/date_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平均住院日"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/day7_persent"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="7日出院率"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/cure_persent"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="治愈率"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/disease_lv_avg"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="平均病情严重度"
+        android:textSize="30px"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="评分"
+        android:textSize="30px" />
+
+</LinearLayout>

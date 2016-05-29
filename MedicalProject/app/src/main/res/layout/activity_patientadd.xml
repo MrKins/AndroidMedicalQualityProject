@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="病人名字："
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/patient_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入病人名字" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="病情严重度："
+            android:textSize="24dp" />
+
+        <Spinner
+            android:id="@+id/disease_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/disease_lv_array"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="住院日期："
+            android:textSize="24dp" />
+
+        <!--<DatePicker-->
+        <!--android:calendarViewShown="false"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"></DatePicker>-->
+
+        <EditText
+            android:id="@+id/in_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="（例：2016-01-01）" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出院日期："
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/out_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="（例：2016-01-02）" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主治医师ID："
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/doctor_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入主治医师ID" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="治愈与否："
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/cure"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="治愈：1；未治愈：0" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定添加" />
+
+</LinearLayout>
