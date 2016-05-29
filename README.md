@@ -41,4 +41,15 @@ SQL插入病历信息insert语句：
 <pre>INSERT INTO Medical.dbo.Patient(pat_name , in_date , out_date , doc_id , cure , disease_lv) 
 VALUES('K先生' , '2016-02-11' , '2016-03-11' , '102' , '1' , '10');</pre>
 
-截图后续填上
+
+登陆页
+
+![Login](https://raw.githubusercontent.com/MrKins/AndroidMedicalQualityProject/master/Image/Login.png)
+
+医生医疗质量页
+
+![Doctor](https://raw.githubusercontent.com/MrKins/AndroidMedicalQualityProject/master/Image/Doctor.png)
+
+录入病例页
+
+![Patient](https://raw.githubusercontent.com/MrKins/AndroidMedicalQualityProject/master/Image/Patient.png)
